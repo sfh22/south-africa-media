@@ -98,7 +98,7 @@ def process_data(df_all_original, df_KSA):
     return df_all, columns_difference
 
 def main():
-    st.title("Data Processing App")
+    st.title("South Africa Data Processing App")
 
     # Upload files
     uploaded_all_file = st.file_uploader("Upload South Africa Data File (Excel)", type=["xlsx"])
